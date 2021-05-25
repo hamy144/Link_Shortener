@@ -1,0 +1,14 @@
+﻿<div class="jumbotron">
+    <h1 class="display-2">Shorten your link in one easy click!</h1>
+    <div class="form">
+        <div class="form-group m-2">
+            <label for="urlToShorten">Your link: </label>
+            <input class="form-control form-control-lg" type="text" placeholder="www.google.com" id="urlToShorten" name="urlToShorten" value="" />
+        </div>
+        <button type="submit" class="btn btn-lg btn-primary m-2" onclick='PostLink($("#urlToShorten").val())'>Shorten</button>
+    </div>
+    <div class="d-none">
+        <button class="btn btn-lg btn-secondary m-2" onclick='CopyLink()'>Copy</button>
+        <a id="link" href="#">placeholder</a>
+    </div>
+</div>
