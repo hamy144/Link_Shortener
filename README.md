@@ -13,6 +13,7 @@ Currently implemented is using a MongoDB and a local in memory cache but I have 
 
 ## Deployment
 Current configuration is for a local deployment but is designed to be able to be deployed into a could environment with ease.\
+For localhosting a MongoDB instance will need to be running.\
 A service such as AWS ECS would be ideal for this app.\
 Deployment to the cloud would include moving to using the Redis cache for distributed caching and moving to an RDS DynamoDB.
 
